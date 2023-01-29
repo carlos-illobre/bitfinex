@@ -1,6 +1,6 @@
 Sorry, I couldn't understand how that grapes library works, I didn't find a way to know the amount of clients connected to a server.
 But the idea is to have several clients an one server
-
+```
 +---------+      +---------+      +---------+
 | Client1 |      | Client2 |      | Client3 |
 +---------+      +---------+      +---------+
@@ -10,7 +10,7 @@ But the idea is to have several clients an one server
                  | Server  |
                  +---------+
 
-
+```
 When one client wants to create an order it sends a message to the server:
 
 {
